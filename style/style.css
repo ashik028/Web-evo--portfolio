@@ -1,0 +1,98 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.btn-primary{
+    color: rgb(255, 255, 255);;
+    background: rgb(253, 110, 10);
+    border-radius: 5px;
+    border: none;
+    padding: 15px 18px;
+    font-size: 20px;
+    font-weight: 700;
+    font height: 27px;
+}
+
+
+/* Shared style */
+
+.nav-title .color{
+    color: rgb(253, 110, 10);
+}
+
+.drak-2{
+    color:color: rgb(71, 71, 71);
+}
+
+/* Nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 100px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0 99px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/* Bannner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 200px;
+}
+
+.bannner-containt{
+    max-width: 580px;
+}
+
+.banner-u{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-y{
+    color: rgb(24, 24, 24);
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.banner-t{
+    font-size: 18px;
+    font-weight: 400;
+}
